@@ -18,21 +18,48 @@
                 "auxillary_file_paths": [
                     "results\\VisionRollerBall_NegRewards_01\\RollerBall\\RollerBall-700010.pt"
                 ]
+            },
+            {
+                "steps": 700010,
+                "file_path": "results\\VisionRollerBall_NegRewards_01\\RollerBall\\RollerBall-700010.onnx",
+                "reward": null,
+                "creation_time": 1635448235.7137704,
+                "auxillary_file_paths": [
+                    "results\\VisionRollerBall_NegRewards_01\\RollerBall\\RollerBall-700010.pt"
+                ]
+            },
+            {
+                "steps": 999999,
+                "file_path": "results\\VisionRollerBall_NegRewards_01\\RollerBall\\RollerBall-999999.onnx",
+                "reward": 0.42507645259938837,
+                "creation_time": 1635449654.1834338,
+                "auxillary_file_paths": [
+                    "results\\VisionRollerBall_NegRewards_01\\RollerBall\\RollerBall-999999.pt"
+                ]
+            },
+            {
+                "steps": 1000010,
+                "file_path": "results\\VisionRollerBall_NegRewards_01\\RollerBall\\RollerBall-1000010.onnx",
+                "reward": 0.4268292682926829,
+                "creation_time": 1635449654.2392185,
+                "auxillary_file_paths": [
+                    "results\\VisionRollerBall_NegRewards_01\\RollerBall\\RollerBall-1000010.pt"
+                ]
             }
         ],
         "final_checkpoint": {
-            "steps": 700010,
+            "steps": 1000010,
             "file_path": "results\\VisionRollerBall_NegRewards_01\\RollerBall.onnx",
-            "reward": 0.2454212454212454,
-            "creation_time": 1634616231.607327,
+            "reward": 0.4268292682926829,
+            "creation_time": 1635449654.2392185,
             "auxillary_file_paths": [
-                "results\\VisionRollerBall_NegRewards_01\\RollerBall\\RollerBall-700010.pt"
+                "results\\VisionRollerBall_NegRewards_01\\RollerBall\\RollerBall-1000010.pt"
             ]
         }
     },
     "metadata": {
         "stats_format_version": "0.3.0",
         "mlagents_version": "0.27.0",
-        "torch_version": "1.9.0"
+        "torch_version": "1.9.1"
     }
 }
