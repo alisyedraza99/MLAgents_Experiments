@@ -1,0 +1,38 @@
+{
+    "RollerBall": {
+        "checkpoints": [
+            {
+                "steps": 499987,
+                "file_path": "results\\VisionRollerBall_NegRewards_01\\RollerBall\\RollerBall-499987.onnx",
+                "reward": 0.2011577424023155,
+                "creation_time": 1634615669.5963082,
+                "auxillary_file_paths": [
+                    "results\\VisionRollerBall_NegRewards_01\\RollerBall\\RollerBall-499987.pt"
+                ]
+            },
+            {
+                "steps": 700010,
+                "file_path": "results\\VisionRollerBall_NegRewards_01\\RollerBall\\RollerBall-700010.onnx",
+                "reward": 0.2454212454212454,
+                "creation_time": 1634616231.607327,
+                "auxillary_file_paths": [
+                    "results\\VisionRollerBall_NegRewards_01\\RollerBall\\RollerBall-700010.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 700010,
+            "file_path": "results\\VisionRollerBall_NegRewards_01\\RollerBall.onnx",
+            "reward": 0.2454212454212454,
+            "creation_time": 1634616231.607327,
+            "auxillary_file_paths": [
+                "results\\VisionRollerBall_NegRewards_01\\RollerBall\\RollerBall-700010.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.9.0"
+    }
+}
